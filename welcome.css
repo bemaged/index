@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+  margin: 10;
+  padding: 10;
+  width: 100vw;
+  height: 100vh;
+  
+  /*背景*/
+  background-image:url("welcome1.JPG");
+  /*くり返しなし*/
+  background-repeat: no-repeat;
+  background-position:0% 50%;
+  /*全体に収まるように*/
+  background-size:contain;
+}
