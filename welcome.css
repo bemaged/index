@@ -1,16 +1,16 @@
 @charset "UTF-8";
 
+.youtube {
+    float: right;
+}
+
 body {
-  margin: 10;
-  padding: 10;
-  width: 100vw;
-  height: 100vh;
-  
-  /*背景*/
-  background-image:url("welcome1.JPG");
-  /*くり返しなし*/
+  margin: 10px;
+  padding: 10px;
+  width: 480px;
+  height: 600px;
+  background-image:url("bg.png");
   background-repeat: no-repeat;
-  background-position:0% 50%;
-  /*全体に収まるように*/
+  background-position:0% 100%;
   background-size:contain;
 }
